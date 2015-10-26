@@ -1,0 +1,46 @@
+﻿Build started 26/10/2015 12:26:58.
+     1>Project "C:\Users\aurel\Documents\Visual Studio 2015\Projects\Project1\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt SocketUnix.cpp main.cpp
+         main.cpp
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(13): error C2065: 'ISocketAbstract': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(13): error C2065: 'absSocket': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(14): error C2065: 'ISocketAbstract': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(14): error C2065: 'absSocketClient': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(28): error C2065: 'absSocket': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(28): error C2227: left of '->Init' must point to class/struct/union/generic type
+         c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(28): note: type is 'unknown-type'
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(29): error C2065: 'absSocket': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(29): error C2227: left of '->Socket' must point to class/struct/union/generic type
+         c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(29): note: type is 'unknown-type'
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(29): error C2065: 'AF_INET': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(29): error C2065: 'SOCK_STREAM': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(30): error C2065: 'absSocket': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(30): error C2227: left of '->Bind' must point to class/struct/union/generic type
+         c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(30): note: type is 'unknown-type'
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(31): error C2065: 'absSocket': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(31): error C2227: left of '->Listen' must point to class/struct/union/generic type
+         c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(31): note: type is 'unknown-type'
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(34): error C2065: 'absSocketClient': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(34): error C2065: 'absSocket': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(34): error C2227: left of '->Accept' must point to class/struct/union/generic type
+         c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(34): note: type is 'unknown-type'
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(35): error C2065: 'absSocketClient': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(35): error C2227: left of '->getSocket' must point to class/struct/union/generic type
+         c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(35): note: type is 'unknown-type'
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(35): error C2065: 'INVALID_SOCKET': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(37): error C2065: 'absSocket': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(37): error C2227: left of '->Send' must point to class/struct/union/generic type
+         c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(37): note: type is 'unknown-type'
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(37): error C2065: 'absSocketClient': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(38): error C2065: 'absSocketClient': undeclared identifier
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(38): error C2227: left of '->Close' must point to class/struct/union/generic type
+         c:\users\aurel\documents\visual studio 2015\projects\project1\project1\main.cpp(38): note: type is 'unknown-type'
+         SocketUnix.cpp
+     1>c:\users\aurel\documents\visual studio 2015\projects\project1\project1\socketunix.h(7): fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\aurel\Documents\Visual Studio 2015\Projects\Project1\Project1\Project1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.40
